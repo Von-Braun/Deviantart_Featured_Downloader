@@ -19,7 +19,7 @@ pg:0:image_3_name Downloaded
 pg:0:image_4_name Downloaded
 ```
 
-# Message Meainings
+# Message Meanings
 
 Downloaded = the image was successfully downloaded.
 
