@@ -1,6 +1,6 @@
 # What This Program Does
 
-It downloads all images in the featured section of an account on Deviantart. The featured section may not conatain all the users images.
+It downloads all images in the featured section of an account on Deviantart. The featured section may not contain all the users images.
 
 # How To Use This Program
 
