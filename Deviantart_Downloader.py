@@ -42,7 +42,7 @@ def trade_spider():
                 try:
                     state = download_image(href,href.split('/')[-1].split('.')[0])
                 except Exception as e:
-                    print e 
+                    print e,
                 print state
         page+=24
     os.chdir(oldpath)
