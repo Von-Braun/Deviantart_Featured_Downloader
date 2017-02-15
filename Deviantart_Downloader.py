@@ -38,11 +38,11 @@ def trade_spider():
             if href!=None: 
                 got_something = True
                 print 'pg:'+str(page/24)+':'+href.split('/')[-1].split('.')[0],
-                state='An unknown ERROR Occurred'
+                state=Fore.RED+'An unknown error occurred: '+Fore.WHITE
                 try:
                     state = download_image(href,href.split('/')[-1].split('.')[0])
                 except Exception as e:
-                    print e,
+                    state+=e
                 print state
         page+=24
     os.chdir(oldpath)
