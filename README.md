@@ -18,15 +18,15 @@ Once you input an account name and press enter, it will start fetching the image
 
 ```
 pg:0:image_1_name Downloaded
-pg:0:image_2_name Already Downloaded
-pg:0:image_3_name Downloaded
-pg:0:image_4_name Downloaded
+pg:0:image_2_name Downloaded
+pg:0:image_3_name Already Downloaded                                    #example of a file already downloaded
+pg:0:image_4_name An unknown error occurred: list index out of range    #example of something bad happening
 ```
 
 # Message Meanings
 
-Downloaded = the image was successfully downloaded.
+Downloaded = The image was successfully downloaded.
 
-Already Downloaded = the image was already downloaded.
+Already Downloaded = The image was already downloaded.
 
-An unknown ERROR Occurred = what it says.
+An unknown error occurred = Not good.
